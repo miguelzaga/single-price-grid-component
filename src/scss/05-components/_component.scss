@@ -1,1 +1,38 @@
 @use "./../01-abstracts/" as *;
+
+.component {
+  padding: 72px 32px 62px;
+
+  &__grid {
+    display: grid;
+    grid-template-rows: 267fr 228fr 227fr;
+    grid-template-columns: 1fr;
+    max-width: 635px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 5px;
+  }
+
+  &__card {
+    padding: 24px;
+    grid-column: 1;
+    position: relative;
+
+    &-1 {
+      padding-top: 28px;
+      grid-row: 1 / 2;
+    }
+
+    &-2 {
+      background-color: $dark-green;
+      grid-row: 2 / 4;
+      color: white;
+    }
+
+    &-3 {
+      grid-row: 3 / 4;
+      color: white;
+    }
+  }
+}

@@ -1,1 +1,16 @@
 @use "./../01-abstracts/" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: normal;
+  color: $gray;
+}
+
+h1,
+h2,
+h3,
+b {
+  font-weight: bold;
+}
