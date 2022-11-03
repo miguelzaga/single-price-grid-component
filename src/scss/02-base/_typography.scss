@@ -6,11 +6,16 @@ body {
   font-family: "Karla", sans-serif;
   font-weight: normal;
   color: $gray;
+  font-size: rem(14px);
 }
 
 h1,
 h2,
-h3,
+h3 {
+  font-size: rem(18px);
+  font-weight: bold;
+}
+
 b {
   font-weight: bold;
 }

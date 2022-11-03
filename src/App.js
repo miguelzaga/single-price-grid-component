@@ -4,28 +4,28 @@ function App() {
   return (
     <section className="component">
       <div className="component__grid">
-        <div className="component__card component__card-1">
-          <h1 className="component__">Join our community</h1>
-          <h2 className="component__">
+        <article className="component__card component__card-1">
+          <h1 className="component__h1">Join our community</h1>
+          <b className="component__b">
             30-day, hassle-free money back guarantee
-          </h2>
-          <p className="component__">
+          </b>
+          <p className="component__p">
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
             their skills.
           </p>
-        </div>
+        </article>
 
-        <div className="component__card component__card-2">
+        <article className="component__card component__card-2">
           <h2 className="component__"> Monthly Subscription</h2>{" "}
           <p className="component__">
             <b className="component__">&#36;29</b> per month
           </p>
           <p className="component__"> Full access for less than &#36;1 a day</p>
           <button className="component__"> Sign Up</button>
-        </div>
+        </article>
 
-        <div className="component__card component__card-3">
+        <article className="component__card component__card-3">
           <h2 className="component__">Why Us</h2>
           <ul className="component__">
             <li className="component__">Tutorials by industry experts</li>
@@ -37,7 +37,7 @@ function App() {
             <li className="component__">New videos every week</li>
           </ul>
           <div className="opaque-bg"></div>
-        </div>
+        </article>
       </div>
     </section>
   );
