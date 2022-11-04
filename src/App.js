@@ -5,11 +5,11 @@ function App() {
     <section className="component">
       <div className="component__grid">
         <article className="component__card component__card-1">
-          <h1 className="component__h1">Join our community</h1>
-          <b className="component__b">
+          <h1 className="component__title">Join our community</h1>
+          <p className="component__highlight">
             30-day, hassle-free money back guarantee
-          </b>
-          <p className="component__p">
+          </p>
+          <p className="component__description">
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
             their skills.

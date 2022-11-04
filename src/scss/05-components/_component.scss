@@ -36,7 +36,25 @@
     }
   }
 
-  &__h1 {
+  &__title {
     font-size: rem(20px);
+    color: $dark-green;
+    margin-bottom: 24px;
+    line-height: 23px;
+    letter-spacing: -0.25px;
+  }
+
+  &__highlight {
+    color: $lime-green;
+    margin-bottom: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: -0.1875px;
+    font-size: rem(15px);
+  }
+
+  &__description {
+    line-height: 26px;
+    letter-spacing: -0.175px;
   }
 }
