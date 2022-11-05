@@ -28,6 +28,7 @@
       background-color: $dark-green;
       grid-row: 2 / 4;
       color: white;
+      font-size: rem(16px);
     }
 
     &-3 {
@@ -54,7 +55,41 @@
   }
 
   &__description {
-    line-height: 26px;
     letter-spacing: -0.175px;
+  }
+
+  &__subtitle {
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    margin-bottom: 18px;
+  }
+
+  &__price {
+    font-size: rem(32px);
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    vertical-align: middle;
+    margin-right: 11px;
+    margin-bottom: 4px;
+  }
+
+  &__btn {
+    margin-top: 26px;
+    background-color: $lime-green;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    padding: 15px 15px 15px;
+  }
+
+  &__li {
+    line-height: 20px;
+    opacity: 0.75;
   }
 }

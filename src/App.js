@@ -17,24 +17,25 @@ function App() {
         </article>
 
         <article className="component__card component__card-2">
-          <h2 className="component__"> Monthly Subscription</h2>{" "}
-          <p className="component__">
-            <b className="component__">&#36;29</b> per month
+          <h2 className="component__subtitle"> Monthly Subscription</h2>{" "}
+          <p>
+            <b className="component__price">&#36;29</b>
+            <span className="opaque"> per month</span>
           </p>
-          <p className="component__"> Full access for less than &#36;1 a day</p>
-          <button className="component__"> Sign Up</button>
+          <p> Full access for less than &#36;1 a day</p>
+          <button className="component__btn"> Sign Up</button>
         </article>
 
         <article className="component__card component__card-3">
-          <h2 className="component__">Why Us</h2>
-          <ul className="component__">
-            <li className="component__">Tutorials by industry experts</li>
-            <li className="component__">Peer &amp; expert code review</li>
-            <li className="component__">Coding exercises</li>
-            <li className="component__">Access to our GitHub repos</li>
-            <li className="component__">Community forum</li>
-            <li className="component__">Flashcard decks </li>
-            <li className="component__">New videos every week</li>
+          <h2 className="component__subtitle">Why Us</h2>
+          <ul className="component__ul">
+            <li className="component__li">Tutorials by industry experts</li>
+            <li className="component__li">Peer &amp; expert code review</li>
+            <li className="component__li">Coding exercises</li>
+            <li className="component__li">Access to our GitHub repos</li>
+            <li className="component__li">Community forum</li>
+            <li className="component__li">Flashcard decks </li>
+            <li className="component__li">New videos every week</li>
           </ul>
           <div className="opaque-bg"></div>
         </article>
