@@ -17,13 +17,15 @@ function App() {
         </article>
 
         <article className="component__card component__card-2">
-          <h2 className="component__subtitle"> Monthly Subscription</h2>{" "}
-          <p>
-            <b className="component__price">&#36;29</b>
-            <span className="opaque"> per month</span>
-          </p>
-          <p> Full access for less than &#36;1 a day</p>
-          <button className="component__btn"> Sign Up</button>
+          <div className="container">
+            <h2 className="component__subtitle"> Monthly Subscription</h2>{" "}
+            <p>
+              <b className="component__price">&#36;29</b>
+              <span className="opaque"> per month</span>
+            </p>
+            <p> Full access for less than &#36;1 a day</p>
+            <button className="component__btn"> Sign Up</button>
+          </div>
         </article>
 
         <article className="component__card component__card-3">

@@ -2,26 +2,40 @@
 
 .component {
   padding: 72px 32px 62px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__grid {
     display: grid;
     grid-template-rows: 267fr 228fr 227fr;
     grid-template-columns: 1fr;
     max-width: 635px;
-    margin: auto;
     background: #ffffff;
     box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
     border-radius: 5px;
+    @include breakpoint($md) {
+      grid-template-rows: 216fr 259fr;
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__card {
     padding: 24px;
     grid-column: 1;
     position: relative;
+    @include breakpoint($md) {
+      padding: 40px;
+    }
 
     &-1 {
       padding-top: 28px;
       grid-row: 1 / 2;
+      @include breakpoint($md) {
+        padding-top: 40px;
+        grid-column: 1/3;
+      }
     }
 
     &-2 {
@@ -29,11 +43,23 @@
       grid-row: 2 / 4;
       color: white;
       font-size: rem(16px);
+      @include breakpoint($md) {
+        grid-row: 2 / 3;
+        grid-column: 1/3;
+
+        & .container {
+          max-width: 237px;
+        }
+      }
     }
 
     &-3 {
       grid-row: 3 / 4;
       color: white;
+      @include breakpoint($md) {
+        grid-row: 2 / 3;
+        grid-column: 2/3;
+      }
     }
   }
 
