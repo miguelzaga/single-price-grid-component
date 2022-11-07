@@ -48,7 +48,7 @@
         grid-column: 1/3;
 
         & .container {
-          max-width: 237px;
+          max-width: 238px;
         }
       }
     }
@@ -69,6 +69,11 @@
     margin-bottom: 24px;
     line-height: 23px;
     letter-spacing: -0.25px;
+    @include breakpoint($md) {
+      font-size: rem(24px);
+      line-height: 28px;
+      letter-spacing: -0.3px;
+    }
   }
 
   &__highlight {
@@ -78,10 +83,21 @@
     line-height: 20px;
     letter-spacing: -0.1875px;
     font-size: rem(15px);
+    @include breakpoint($md) {
+      font-size: rem(18px);
+      line-height: 21px;
+      letter-spacing: -0.225px;
+      margin-bottom: 11px;
+    }
   }
 
   &__description {
     letter-spacing: -0.175px;
+    @include breakpoint($md) {
+      font-size: rem(16px);
+      line-height: 26px;
+      letter-spacing: -0.2px;
+    }
   }
 
   &__subtitle {
